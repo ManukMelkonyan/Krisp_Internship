@@ -23,7 +23,7 @@ function gather (str) {
 }
 
 
-//  bing implementation
+//  bind implementation
 
 // function gather (str) {
 //     const arr = [str];
