@@ -8,3 +8,4 @@ btn.addEventListener('click', function(){
     txtElem.innerText = formatted;
     txtElem.classList.toggle('hide-or-show');
 });
+
