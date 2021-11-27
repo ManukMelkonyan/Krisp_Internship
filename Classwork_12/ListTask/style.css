@@ -1,0 +1,36 @@
+.container {
+    margin: auto;
+    width: 50%;
+    /* width: auto; */
+}
+
+.centered-list{
+    text-align: center;
+    list-style-position: inside;
+}
+
+.centered-list li {
+    margin: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+/* .centered-list li span {
+    margin: 3px;
+} */
+
+.centered-list li:hover{
+    font-size: 25px;
+    background-color: blanchedalmond;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+button {
+    border-radius: 30%;
+    border: 2px solid transparent;
+}
+
+button:hover {
+    background-color: tomato;
+}
