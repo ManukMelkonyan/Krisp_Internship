@@ -4,7 +4,13 @@
     /* width: auto; */
 }
 
+.container div {
+    text-align: center;
+}
+
+
 .centered-list{
+    align-items: flex-start;
     text-align: center;
     list-style-position: inside;
 }
@@ -26,11 +32,18 @@
 .line-through {
     text-decoration: line-through;
 }
-button {
+.add-button {
+    border-radius: 10%;
+    border: 2px solid transparent;
+}
+
+.remove-button {
+
+    margin: 5px;
     border-radius: 30%;
     border: 2px solid transparent;
 }
 
-button:hover {
+.remove-button:hover {
     background-color: tomato;
 }
