@@ -10,7 +10,6 @@
 
 
 .centered-list{
-    align-items: flex-start;
     text-align: center;
     list-style-position: inside;
 }
@@ -20,9 +19,6 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
-/* .centered-list li span {
-    margin: 3px;
-} */
 
 .centered-list li:hover{
     font-size: 25px;

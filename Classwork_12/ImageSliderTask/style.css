@@ -1,0 +1,19 @@
+#container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#img-holder {
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+}
+
+.switcher {
+    align-self: center;
+    width: 50px;
+    height: 50px;
+}
