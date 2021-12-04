@@ -1,0 +1,22 @@
+.-flex{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#select-bar {
+    margin: 20px;
+}
+
+#getPicBtn {
+    margin: 20px;   
+}
+
+#imageHolder {
+    width: 500px;
+    height: auto;
+}
+
+.pretty-font{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

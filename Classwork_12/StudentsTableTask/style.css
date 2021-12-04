@@ -1,0 +1,14 @@
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#students-table  {
+    border-collapse: collapse;
+    
+}
+
+#students-table th, td {
+    padding: 5px 10px;
+}
+

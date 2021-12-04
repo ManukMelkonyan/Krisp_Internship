@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DogAPI</title>
+</head>
+<body>
+    <div class="pretty-font">
+        <div class="-flex">
+            <span class="pretty-font">Select the dog breed aboc and press "Get picture" button</span>
+        </div>
+        <div class="-flex"> 
+            
+            <select class="pretty-font" id="select-bar">
+                <option value="akita">Akita</option>
+                <option value="beagle">Beagle</option>
+                <option value="dalmatian">Dalmatian</option>
+                <option value="german">German</option>
+                <option value="shepherd">Shepherd</option>
+                <option value="husky">Husky</option>
+                <option value="labrador">Labrador</option>
+                <option value="pug">Pug</option>
+                <option value="golden">Golden</option>
+                <option value="retriever">Retriever</option>
+                <option value="cocker">Cocker</option>
+                <option value="spaniel">Spaniel</option>
+            </select>
+            <button id="getPicBtn" class="pretty-font">Get picture</button>
+        </div>
+        <div class="-flex">
+            <img id="imageHolder" src="get.png" alt="Error">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
