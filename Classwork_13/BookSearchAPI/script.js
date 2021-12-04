@@ -6,8 +6,6 @@ const pageSelector = document.getElementById('pageSelector');
 
 let pageCount = 0;
 
-console.log(tableBody);
-
 function getRow(title, author, publishYear, subject){
     const row = document.createElement('tr');
     
@@ -33,7 +31,6 @@ async function fetchData(page) {
     if(inputValue){
         const response = await fetch(`http://openlibrary.org/search.json?q=${inputValue.trim().replace(/[\s]+/g, '+')}&page=${page}`);
         const responseJson = await response.json();
-        console.log(responseJson);
         const numFound = Number(responseJson['numFound']);
 
         const docs = responseJson['docs'];
