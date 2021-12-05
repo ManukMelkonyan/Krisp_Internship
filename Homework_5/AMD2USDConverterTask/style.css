@@ -1,0 +1,8 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+select, input {
+    margin: 10px 20px;
+}
