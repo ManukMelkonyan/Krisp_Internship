@@ -1,0 +1,31 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.film-info {
+    width: 500px;
+    min-height: 200px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: snow;
+    border-radius: 10px;
+}
+
+.info-span{
+    margin: 10px;
+}
+.info-div {
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+body {
+    background-color: rgb(191, 255, 250);
+}
+.margin-20 {
+    margin: 20px;
+}
