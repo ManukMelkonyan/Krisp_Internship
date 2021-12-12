@@ -1,0 +1,46 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items:stretch;
+}
+
+body {    background-color: blanchedalmond;
+}
+
+.flex-container > * {
+    margin: 7px 10px;
+}
+
+.flag-img {
+    height: 50px;
+    border: 1px solid black;
+}
+
+.country-info {
+    width: 180px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: snow;
+}
+
+
+.country-info > * {
+    padding: 4px;
+}
+.country-info > * > * {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.flex-div {
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+}
